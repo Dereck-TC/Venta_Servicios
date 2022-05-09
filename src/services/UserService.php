@@ -1,5 +1,6 @@
 <?php
-if ($action = isset($_POST['action'])) {
+
+if ($action = isset($_GET['action'])) {
     include '../helpers/helper.php';
     switch ($action) {
         case 'login':
