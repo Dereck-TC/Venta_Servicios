@@ -14,10 +14,12 @@ if ($action = isset($_GET['action'])) {
 
                 if (isset($response->access_token)) {
                     $_SESSION['user_token'] = $response->token_type . ' ' . $response->access_token;
-                    header('Location: index.php');
+                    echo json_encode(array('status' => 'success'));
+                } else {
+                    echo json_encode(array('status' => 'error'));
                 }
             } else {
-                echo 'Login failed';
+                echo json_encode(array('status' => 'error'));
             }
 
             break;

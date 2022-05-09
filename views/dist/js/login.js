@@ -26,4 +26,10 @@ btnLogin.onclick = async function (e) {
     method: "POST",
     body: formData,
   });
+  const data = await response.json();
+  if (data.status === "success") {
+    window.location.href = "./";
+  } else {
+    alert("Invalid email or password");
+  }
 };
