@@ -18,8 +18,12 @@ btnLogin.onclick = async function (e) {
     return false;
   }
 
+  let formData = new FormData();
+  formData.append("email", emailValue);
+  formData.append("password", passwordValue);
+
   const response = await fetch("../src/services/UserService.php?action=login", {
     method: "POST",
-    body: JSON.stringify({ email: emailValue, password: passwordValue }),
+    body: formData,
   });
 };
