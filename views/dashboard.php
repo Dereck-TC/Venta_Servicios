@@ -30,7 +30,8 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
   <?php
-    
+  include '../src/helpers/sesiones.php';
+  usuarioAutenticado();
   ?>
   <div class="wrapper">
 
