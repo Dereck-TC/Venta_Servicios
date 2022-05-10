@@ -11,9 +11,6 @@
 						date_default_timezone_set('America/Lima');
 						$DateAndTime = date('m-D-Y h:i a', time());
 						echo "$DateAndTime.\n";
-
-						$Year = date('Y');
-
 						?>
 					</p>
 				</li>
