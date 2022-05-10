@@ -13,6 +13,7 @@ if ($action = isset($_GET['action'])) {
                 $response = callToService('login', 'POST', $data);
 
                 if (isset($response->access_token)) {
+                    session_start();
                     $_SESSION['user_token'] = $response->token_type . ' ' . $response->access_token;
                     echo json_encode(array('status' => 'success'));
                 } else {
