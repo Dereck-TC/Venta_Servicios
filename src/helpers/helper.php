@@ -3,7 +3,7 @@
 // @param $route: the route to consume.
 // @param $method: the method to use.
 // @param $data: the data to send.
-function callToService($route, $method, $data, $headers = null)
+function callToService($route, $method = 'POST', $data = null, $headers = null)
 {
     $url = 'http://fpr.carlocordova.com/api/' . $route;
     $curl = curl_init($url);

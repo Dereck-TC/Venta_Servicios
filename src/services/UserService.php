@@ -1,5 +1,6 @@
 <?php
-if ($action = isset($_POST['action'])) {
+
+if ($action = isset($_GET['action'])) {
     include '../helpers/helper.php';
     switch ($action) {
         case 'login':
@@ -12,11 +13,14 @@ if ($action = isset($_POST['action'])) {
                 $response = callToService('login', 'POST', $data);
 
                 if (isset($response->access_token)) {
+                    session_start();
                     $_SESSION['user_token'] = $response->token_type . ' ' . $response->access_token;
-                    header('Location: index.php');
+                    echo json_encode(array('status' => 'success'));
+                } else {
+                    echo json_encode(array('status' => 'error'));
                 }
             } else {
-                echo 'Login failed';
+                echo json_encode(array('status' => 'error'));
             }
 
             break;
