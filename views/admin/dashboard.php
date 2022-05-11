@@ -1,4 +1,4 @@
-<?php require_once './includes/header.php'; ?>
+<?php include './includes/header.php'; ?>
 <div class="wrapper">
 
   <!-- Preloader -->
