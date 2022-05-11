@@ -14,8 +14,8 @@
 </head>
 <body> -->
 <?php 
-require_once('includes/header.php');
-require_once('includes/navbar.php');
+//require_once('includes/header.php');
+//require_once('includes/navbar.php');
 ?>
 <div class="container">
   <div class="card">
@@ -49,8 +49,8 @@ require_once('includes/navbar.php');
   </div>
 </div>
 
-<script type="text/javascript">
-    
-</script>
+<?php 
+//require_once('./includes/footer.php');
+?>
 </body>
 </html>

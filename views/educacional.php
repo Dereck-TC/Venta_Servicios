@@ -1,6 +1,6 @@
 <?php 
-require_once('../includes/header.php');
-require_once('../includes/navbar.php');
+require_once('./includes/header.php');
+require_once('./includes/navbar.php');
 ?>
 <br><br><br>
 <br><br><br>
@@ -49,4 +49,4 @@ require_once('../includes/navbar.php');
 
 
 <br><br><br>
-<?php require '../includes/footer.php'; ?>
+<?php require './includes/footer.php'; ?>
