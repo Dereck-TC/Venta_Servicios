@@ -1,6 +1,6 @@
 <?php
-require_once('../includes/header.php');
-require_once('../includes/navbar.php');
+require_once('./includes/header.php');
+require_once('./includes/navbar.php');
 ?>
 <div class="hlt_slider">
 	<img src="" class="img-responsive">
