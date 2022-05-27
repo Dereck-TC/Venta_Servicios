@@ -1,6 +1,6 @@
-<?php 
-require_once('../includes/header.php');
-require_once('../includes/navbar.php');
+<?php
+require_once('./includes/header.php');
+require_once('./includes/navbar.php');
 ?>
 <div class="hlt_slider">
 	<img src="" class="img-responsive">
@@ -34,7 +34,7 @@ require_once('../includes/navbar.php');
 						<img src="../assets/img/tecnologia.png" width="40px" height="40px" style="margin-top: -40px;">
 					</span>
 					<span class="hlt_hexabk"></span>
-					
+
 					<h4>Tecnologia</h4>
 					<p>Lorem ipsum dolor sit ametsicing elit sed do eiusmod temp.</p>
 					<a href=tecnologia.php"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
@@ -48,7 +48,7 @@ require_once('../includes/navbar.php');
 					<span class="hlt_hexabk"></span>
 					<h4>Educacional</h4>
 					<p>Lorem ipsum dolor sit ametsicing elit sed do eiusmod temp.</p>
-					<a href="edicacional.php"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+					<a href="educacional.php"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -57,7 +57,7 @@ require_once('../includes/navbar.php');
 						<img src="../assets/img/terapeutica.png" width="40px" height="40px" style="margin-top: -30px;">
 					</span>
 					<span class="hlt_hexabk"></span>
-					
+
 					<h4>Terapeutica</h4>
 					<p>Lorem ipsum dolor sit ametsicing elit sed do eiusmod temp.</p>
 					<a href="terapeutica.php"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
@@ -141,11 +141,11 @@ require_once('../includes/navbar.php');
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="hlt_heading style_2">
-					<h1>Sobre nosotros</h1>					
+					<h1>Sobre nosotros</h1>
 				</div>
 				<div class="hlt_about_info">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempeor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis norud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat enduis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-					
+
 					<!--h4>Horas Laborales</h4>
 					<table>
 						<tr>
